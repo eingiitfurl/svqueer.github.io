@@ -1,0 +1,35 @@
+ body {
+    width: 100vw;
+    height: 100vh;
+ }
+ 
+ nav {
+    background-color: #CF9FFF;
+ }
+
+ a, .nav-link, h1, h5, small {
+    color: #7F00FF;
+ }
+
+ .nav-link:active {
+    color: aliceblue;
+ }
+
+ img {
+    display: block;
+    margin: auto;
+    margin-bottom: 1%;
+    padding: 1%;
+    /* border: 2px solid black; */
+    width: 45%;
+ }
+
+ .container-list-group {
+    width: 70%;
+    margin-bottom: 5vh;
+ }
+
+ h1 {
+    text-align: center;
+    margin: 4%;
+ }
