@@ -1,0 +1,28 @@
+#banner {
+    background-color: #CF9FFF;
+    height: 6rem;
+}
+
+nav {
+    background-color: aquamarine;
+}
+
+blockquote > p {
+    font-style: italic;
+    text-align: center;
+    margin: 1rem 12rem;
+    padding: 2rem 0rem;
+}
+
+.clickable-img {
+    width: 25rem;
+    /*border: 1px solid red;*/
+}
+
+#clickable-imgs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /*border: 2px solid black;*/
+}
+
