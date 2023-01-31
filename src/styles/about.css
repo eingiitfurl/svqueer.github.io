@@ -3,18 +3,20 @@ nav {
 }
 
 #grid-container {
-    border: 1px solid deeppink;
+    /*border: 1px solid deeppink;*/
     /*display: block;*/
-    /*width: 100%;*/
-    margin: 10em;
-    /*padding: 10em;*/
+    width: 100%;
+    margin: auto;
+    /*margin: 10em;*/
+    padding: .5em;
 }
 
 .col {
-    width: 20em;
+    /*width: 10em;*/
 }
 
 .clickable-img {
     width: 100%;
-    border: 1px solid red;
+    padding: 1.5em;
+    /*border: 1px solid red;*/
 }
