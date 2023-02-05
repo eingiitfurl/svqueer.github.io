@@ -1,3 +1,6 @@
+body {
+    background-color: #FDFAA8 !important;
+}
 #banner {
     background-color: #CF9FFF;
     height: 6rem;
@@ -5,6 +8,10 @@
 
 nav {
     background-color: aquamarine;
+}
+
+.scroll-container {
+    background-color: transparent;
 }
 
 blockquote > p {
