@@ -80,3 +80,7 @@ button, a, li {
 footer {
     background-color: #CF9FFF;
 }
+
+a, .nav-link, h1, h5, small {
+    color: #7F00FF !important;
+ }
