@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S.V. QUEER!</title>
     <link rel="stylesheet" href="../styles/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -92,13 +94,55 @@
 </head>
 <body>
 
-<!--    banner-->
-    <div id="banner" class="container-fluid">
-        <p>Banner</p>
-    </div>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark p-3" id="headerNav">
+  <div class="container-fluid">
+    <a class="navbar-brand d-block d-lg-none" href="#">
+      <img src="../images/logo.png" height="80"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-<!--    navbar-->
-<nav class="navbar navbar-expand">
+    <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">Agenda</a>
+        </li>
+        <li class="nav-item d-none d-lg-block">
+          <a class="nav-link mx-2" href="#">
+            <img src="../images/logo.png" height="80"/>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">Contacts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">Join us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Association
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Board</a></li>
+            <li><a class="dropdown-item" href="#">Commissions</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+<!-- old   navbar-->
+<!-- <nav class="navbar navbar-expand">
     <div class="container-fluid">
         <a class="navbar-brand" href="index.html">S.V. Queer</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,25 +178,44 @@
             </ul>
         </div>
     </div>
-  </nav>
+  </nav> -->
   <!-- end navbar -->
 
-  <!-- first grid -->
-    <div class="container">
-        <blockquote class="blockquote">
+  <!-- first paragraph -->
+  <section id="first-paragrapgh" class="full-height">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-0 col-md-0 col-lg-2 cols"></div>
+        <div class="col-12 col-md-12 col-lg-8 cols">
+          <blockquote>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis ultricies tincidunt. Nunc pulvinar lacinia elit, eu gravida tellus condimentum vitae. Nam lacinia imperdiet viverra. Curabitur molestie dictum magna vitae posuere.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mollis ultricies tincidunt. Nunc pulvinar lacinia elit, eu gravida tellus condimentum vitae. Nam lacinia imperdiet viverra. Curabitur molestie dictum magna vitae posuere.</p>
         </blockquote>
-    </div>
-
-    <div class="container">
-        <div class="row row-cols-3 p-5">
-            <img src="../images/Is-He-Really-an-Orphaned-Kitten-1.jpg" class="rounded clickable-img" alt="...">
-        <img src="../images/PP_Kittens_WhenShouldItake2Vet_cats101_501x469.jpg" class="rounded clickable-img" alt="...">
-        <img src="../images/kitten-checklist-alles-wat-je-nodig-hebt-voor-jouw.jpg" class="rounded clickable-img" alt="...">
         </div>
-    </div>
-    <!-- end first grid -->
+        <div class="col-0 col-md-0 col-lg-2 cols"></div>
+      </div>
+  </div>
+  </section>
+  <!-- end first paragraph -->
+    
+
+  <!-- first grid -->
+  <section id="first-grid" class="full-height">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 cols">
+          <img src="../images/Is-He-Really-an-Orphaned-Kitten-1.jpg" class="rounded clickable-img img-responsive" alt="...">
+        </div>
+        <div class="col-12 col-md-6 cols">
+          <img src="../images/PP_Kittens_WhenShouldItake2Vet_cats101_501x469.jpg" class="rounded clickable-img img-responsive" alt="...">
+        </div>
+        <div class="col-12 col-md-12 cols">
+          <img src="../images/kitten-checklist-alles-wat-je-nodig-hebt-voor-jouw.jpg" class="rounded clickable-img img-responsive" alt="...">
+        </div>
+      </div>
+  </div>
+  </section>
+  <!-- end first grid -->
 
 
     <!-- what queer can do for you section -->
