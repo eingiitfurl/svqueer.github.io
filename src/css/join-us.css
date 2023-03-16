@@ -1,0 +1,40 @@
+@import url(styles.css);
+
+body {
+    overflow-x: hidden;
+}
+
+#paragraph {
+    background-color: white !important;
+    color: var(--darker-pink);
+}
+
+iframe {
+    width: 350px;
+    height: 3000px;
+    overflow-y: hidden;
+    overflow: hidden;
+    margin-bottom: -80px;
+}
+
+@media only screen and (min-width: 600px) {
+    iframe {
+        width: 640px;
+        height: 3175px;
+        margin-bottom: -500px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    iframe {
+        width: 3900px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    iframe {
+        width: 5000px;
+        /* height: 1000px; */
+        /* border: 1px solid black; */
+    }
+}
