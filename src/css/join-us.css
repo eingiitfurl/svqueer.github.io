@@ -11,10 +11,11 @@ body {
 
 iframe {
     width: 350px;
-    height: 3000px;
+    height: 3050px;
     overflow-y: hidden;
-    overflow: hidden;
-    margin-bottom: -80px;
+    /* overflow: hidden; */
+    margin-bottom: -50px;
+    /* border: 1px solid black; */
 }
 
 @media only screen and (min-width: 600px) {
