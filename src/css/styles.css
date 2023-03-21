@@ -11535,7 +11535,7 @@ height: 100%;
   place-items: center;
   font: 2vw var(--font-base);
   background-color: transparent;
-  margin-top: -7em;
+  /* margin-top: -7em; */
 }
 
 #bubble-container p {
@@ -11543,7 +11543,7 @@ height: 100%;
   animation: float 5s ease-in-out infinite;
   mix-blend-mode: multiply;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: bold;
   letter-spacing: 3px;
   font-size: 15px;
@@ -11614,5 +11614,17 @@ height: 100%;
   100% {
       line-height: 30px;
       transform: translatey(0px);
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 911px){
+  .agenda, iframe {
+    height: 2000;
+  }
+
+  #bubble-container {
+    margin-top: -16em;
+    margin-bottom: -15em;
+    margin-left: -1em;
   }
 }

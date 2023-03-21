@@ -14,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/calendar.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -27,10 +27,9 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Home</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Home</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="calendar.html">Calendar</a></li>
-                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#agenda.html">Agenda</a></li> -->
                         <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Association</a></li> -->
                         <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contacts</a></li> -->
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="join-us.html">Join us!</a></li>
@@ -38,28 +37,13 @@
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/logo.png" alt="..." />
-                <!-- Masthead Heading-->
-                <h1 class="masthead-heading mb-0">s.v. QUEER!</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dolor at arcu vestibulum auctor. Aenean eget ligula at purus gravida suscipit. In hac habitasse platea dictumst. Donec a finibus libero. Proin quis porta mi. Aliquam bibendum et risus quis rhoncus. Nullam quis dapibus augue. Praesent in laoreet tellus, nec. </p>
-            </div>
-        </header>
+
         <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <section class="page-section portfolio mb-5 mb-md-5 mb-lg-5" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-secondary mb-0">Our Association</h2>
+                <!-- TODO: IMPROVE DESKTOP VERSION -->
+                <h2 class="page-section-heading text-center text-secondary mb-0 mt-lg-5">Calendar</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
@@ -68,128 +52,126 @@
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <p class="masthead-heading p-lg-5 pb-2 pt-0 text-center">In this very cool page you can see our very cool events. But this calendar has to be fixed...</p>
+                        <div class="container-fluid agenda">
+                            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=Europe%2FAmsterdam&showCalendars=1&src=NWQ4ZmU2MWI1MDQ2ZWY2ZGJjOGNhYTQ0ZjJhN2ZiNjE4ZWJmODdkM2YzZjQxMDAxY2Q1NzU3Mzk3ZDQ0OWRkYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </div>
                     <!-- Portfolio Item 1-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
-                            <!-- <h4 class="text-center">Safe space</h4> -->
+                            <h4 class="text-center">?</h4>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="..." />
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Portfolio Item 2-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
-                            <!-- <h4 class="text-center">Parties</h4> -->
+                            <h4 class="text-center">?</h4>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/homepage/parties.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="..." />
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Portfolio Item 3-->
-                    <div class="col-md-6 col-lg-4 mb-5">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
-                            <!-- <h4 class="text-center">Community building</h4> -->
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/homepage/community-building.jpg" alt="..." />
-                        </div>
-                    </div>
-                    <!-- Portfolio Item 4-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
-                            <!-- <h4 class="text-center">Connections</h4> -->
+                            <h4 class="text-center">?</h4>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
                             </div>
                             <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="..." />
                         </div>
-                    </div>
+                    </div> -->
+                    <!-- Portfolio Item 4-->
+                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                            <h4 class="text-center">?</h4>
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/game.png" alt="..." />
+                        </div>
+                    </div> -->
                     <!-- Portfolio Item 5-->
-                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <!-- <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
-                            <!-- <h4 class="text-center">Education</h4> -->
+                            <h4 class="text-center">?</h4>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/homepage/education.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="..." />
                         </div>
-                    </div>
+                    </div> -->
                     <!-- Portfolio Item 6-->
-                    <div class="col-md-6 col-lg-4">
+                    <!-- <div class="col-md-6 col-lg-4">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
-                            <!-- <h4 class="text-center">Becoming a member</h4> -->
+                            <h4 class="text-center">?</h4>
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white">Learn more</div>
                             </div>
-                            <img class="img-fluid" src="assets/img/homepage/become-member.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="..." />
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="what-queer-can-do-for-you">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-white">What Queer can do for you</h2>
+
+        <!-- Masthead-->
+        <!-- <header class="masthead bg-primary text-white text-center" style="border: 2px solid blue;">
+            <div class="container d-flex align-items-center flex-column"> -->
+                <!-- Masthead Avatar Image-->
+                <!-- <img class="masthead-avatar mb-5" src="assets/img/logo.png" alt="..." /> -->
+                <!-- Masthead Heading-->
+                <!-- <h1 class="masthead-heading mb-0">s.v. QUEER!</h1> -->
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
+                <!-- <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
+                </div> -->
+                <!-- Masthead Subheading-->
+                <!-- <p class="masthead-subheading font-weight-light mb-0 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dolor at arcu vestibulum auctor. Aenean eget ligula at purus gravida suscipit. In hac habitasse platea dictumst. Donec a finibus libero. Proin quis porta mi. Aliquam bibendum et risus quis rhoncus. Nullam quis dapibus augue. Praesent in laoreet tellus, nec. </p>
+            </div>
+        </header> -->
+
+        <!-- PARAGRAPH SECTION -->
+        <!-- <section class="page-section bg-primary text-white mb-0 text-center d-flex align-items-center flex-column justify-content-center" id="paragraph"> -->
+            <!-- <div class="container d-flex align-items-center flex-column"> -->
+                <!-- <div class="row"> -->
+                    <!-- <div class="col-12"> -->
+                        <!-- <p class="masthead-heading font-weight-light mb-0 fst-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ut dolor at arcu vestibulum auctor. Aenean eget ligula at purus gravida suscipit. In hac habitasse platea dictumst. Donec a finibus libero. Proin quis porta mi. Aliquam bibendum et risus quis rhoncus. Nullam quis dapibus augue. Praesent in laoreet tellus, nec. </p> -->
+                    <!-- </div> -->
+                <!-- </div> -->
+            <!-- </div>
+        </section> -->
+        <!-- //PARAGRAPH SECTION -->
+
+        <!-- HEADINGs SECTION -->
+        <!-- <section class="page-section bg-primary text-black mb-0 d-flex align-items-center flex-column justify-content-center" id="headings"> -->
+            <!-- <div class="container d-flex align-items-center flex-column"> -->
+                <!-- TODO: IMPROVE DESKTOP VERSION -->
+                <!-- <div class="container py-5-md py-5-lg heading-1">
+                    <h1 class="display-4 text-left" style="color: #b552da">Heading 1</h1>
+                    <p class="lead text-left">Donec a finibus libero. Proin quis porta mi. Aliquam bibendum et risus quis Nullam quis dapibus augue. Praesent in laoreet tellus, nec.</p>
                 </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-6 col-12 ms-auto"><p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p></div>
-                    <div class="col-lg-6 col-12 ms-auto">
-                        <div class="agenda" style="background-color: green;">
-                            <p>//INSERT LIST OF EVENTS</p>
-                            THIS SECTION IS STILL BEING WORKED ON. BE PATIENT ;)
-                            <!-- <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23B39DDB&ctz=Europe%2FAmsterdam&showCalendars=1&src=NWQ4ZmU2MWI1MDQ2ZWY2ZGJjOGNhYTQ0ZjJhN2ZiNjE4ZWJmODdkM2YzZjQxMDAxY2Q1NzU3Mzk3ZDQ0OWRkYkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60" width="1000" height="900" frameborder="0" scrolling="no"></iframe> -->
-                        </div>
-                    </div>
+                <div class="container py-5-md py-5-lg heading-2 text-left">
+                    <h1 class="display-4 text-left" style="color: #b552da">Heading 2</h1>
+                    <p class="lead text-left">Donec a finibus libero. Proin quis porta mi. Aliquam bibendum et risus quis Nullam quis dapibus augue.</p>
                 </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="calendar.html">
-                        <i class="fas fa-calendar me-2"></i>
-                        See our events!
-                    </a>
+                <div class="container py-5-md py-5-lg heading-3 text-left">
+                    <h1 class="display-4 text-left" style="color: #b552da">Heading 3</h1>
+                    <p class="lead text-left">Aliquam bibendum et risus quis Nullam quis dapibus augue. Praesent in laoreet tellus, nec.</p>
                 </div>
             </div>
-        </section>
-        <!-- TODO: FIX THIS CAUSE ITS NOT VERY RESPONSIVE FOR TABLETS -->
-        <!-- text bubble -->
-<!-- source: https://codepen.io/kirstenallen/pen/MWwPYYm -->
-<section class="page-section">
-    <div class="container-fluid" id="bubble-container">
-        <div class="row justify-content-center">
-            <div class="col-11 col-md-12">
-                <p>Special thanks to...
-                    <br><br>
-                    MARCO STRIJKS, Saxion Diversity Office
-                    <br>
-                    WILLIAM SANCHEZ, Saxion Diversity Office
-                    <br>
-                    JANINE SCHOEMAN, Saxion Green Office
-                    <br>
-                    INGRID BLES, Saxion Green Office
-                    <br>
-                    Etty Hillesum Centrum Deventer
-                    <br><br>
-                    ...and last but not least our founding members:
-                    <br>
-                    KAI, NOVA and RIONA!
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- end text bubble -->
+        </section> -->
+        <!-- //HEADINGS SECTION -->
+
         <!-- Footer-->
 <footer class="footer text-center">
     <div class="container">

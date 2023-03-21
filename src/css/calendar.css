@@ -1,0 +1,53 @@
+@import url(styles.css);
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* WHY DOESNT THIS WORK */
+@media only screen and (max-width: 767px) {
+    iframe {
+        width: 500px;
+        height: 1000px;
+        border: 1px solid;
+    }
+} 
+
+/* ///////// SHIT I TRIED THAT DIDNT WORK */
+
+/* .page-section {
+    height: 100vh !important;
+    display: block;
+}
+
+.agenda {
+    overflow: visible;
+}
+
+iframe {
+    width: 100%;
+    height: 400px !important;
+} */
+
+/* WHY DOESNT THIS WORK */
+/* @media only screen and (max-width: 767px) {
+    iframe {
+        width: 100%;
+        height: 400px !important;
+        border: 1px solid black;
+    }
+} 
+
+@media only screen and (min-width: 768px) {
+
+    .page-section {
+        height: 100vh !important;
+        display: block;
+    }
+    iframe {
+        width: 100%;
+        height: 100% !important;
+        border: 1px solid red;
+    }
+} */
