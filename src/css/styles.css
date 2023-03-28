@@ -11642,3 +11642,71 @@ td {
   vertical-align: middle;
   border-color: transparent;
 }
+
+#safe-space-img {
+  background-image: url(../assets/img/homepage/safe-space.jpg);
+}
+
+#parties-img {
+  background-image: url(../assets/img/homepage/parties.jpg);
+}
+
+#community-building-img {
+  background-image: url(../assets/img/homepage/community-building.jpg);
+}
+
+#connections-img {
+  background-image: url(../assets/img/homepage/connections.jpg);
+}
+
+#education-img {
+  background-image: url(../assets/img/homepage/education.jpg);
+}
+
+#becoming-a-member-img {
+  background-image: url(../assets/img/homepage/become-member.jpg);
+}
+
+.image-container {
+  height: 256.8px;
+  position: relative;
+  background-size: cover;
+  border-radius: 1em;
+  width: 400px;
+}
+
+.image-container-overlay {
+  height: 256.8px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 1em;
+}
+
+#what-queer-can-do-for-you {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+#what-queer-can-do-for-you > .container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.rowy-section {
+  height: 50vh;
+  text-align: center;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+}
