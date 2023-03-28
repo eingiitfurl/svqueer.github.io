@@ -11628,3 +11628,17 @@ height: 100%;
     margin-left: -1em;
   }
 }
+
+li {
+  color: var(--darker-pink) !important;
+}
+
+tr {
+  font-weight: 900;
+  color: var(--darker-pink) !important;
+}
+
+td {
+  vertical-align: middle;
+  border-color: transparent;
+}
