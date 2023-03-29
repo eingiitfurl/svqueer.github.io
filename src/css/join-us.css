@@ -20,9 +20,9 @@ iframe {
 
 @media only screen and (min-width: 600px) {
     iframe {
-        width: 640px;
+        /* width: 640px;
         height: 3175px;
-        margin-bottom: -500px;
+        margin-bottom: -500px; */
     }
 }
 
@@ -34,8 +34,16 @@ iframe {
 
 @media only screen and (min-width: 992px) {
     iframe {
-        width: 5000px;
+        /* width: 5000px; */
         /* height: 1000px; */
         /* border: 1px solid black; */
     }
+}
+
+footer {
+    margin-top: -10rem;
+}
+
+.page-section {
+    padding: 0;
 }
