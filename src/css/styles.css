@@ -11717,3 +11717,15 @@ td {
   opacity: 0.8;
   transition: all 0.5s;
 }
+
+.intro {
+  font-size: medium !important;
+  text-justify: none !important;
+}
+
+.middle-text {
+  font-size: medium !important;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+}
