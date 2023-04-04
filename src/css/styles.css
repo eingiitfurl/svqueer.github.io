@@ -11443,7 +11443,8 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  margin-top: -1em;
+  width: 22rem;
 }
 
 @media (min-width: 992px) {
@@ -11457,6 +11458,9 @@ html {
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
+  }
+  .masthead-avatar {
+    width: 21em;
   }
 }
 .portfolio .portfolio-item {
@@ -11721,6 +11725,7 @@ td {
 .intro {
   font-size: medium !important;
   text-justify: none !important;
+  /* margin-top: -4em !important; */
 }
 
 .middle-text {
